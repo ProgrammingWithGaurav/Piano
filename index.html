@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudfare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="script.js" defer ></script>
+    <title>Simple Piano</title>
+</head>
+<body>
+    <div class="buttons">
+        <button class="record-button btn">Record</button>
+        <button class="play-button btn">Play</button>
+    </div>
+    <div class="piano">
+        <div data-note="C" class="key white"></div>
+        <div data-note="Db" class="key black"></div>
+        <div data-note="D" class="key white"></div>
+        <div data-note="Eb" class="key black"></div>
+        <div data-note="E" class="key white"></div>
+        <div data-note="F" class="key white"></div>
+        <div data-note="Gb" class="key black"></div>
+        <div data-note="G" class="key white"></div>
+        <div data-note="Ab" class="key black"></div>
+        <div data-note="A" class="key white"></div>
+        <div data-note="Bb" class="key black"></div>
+        <div data-note="B" class="key white"></div>
+    </div>
+
+    <audio src="notes/C.mp3" id="C"></audio>
+    <audio src="notes/Db.mp3" id="Db"></audio>
+    <audio src="notes/D.mp3" id="D"></audio>
+    <audio src="notes/Eb.mp3" id="Eb"></audio>
+    <audio src="notes/E.mp3" id="E"></audio>
+    <audio src="notes/F.mp3" id="F"></audio>
+    <audio src="notes/Gb.mp3" id="Gb"></audio>
+    <audio src="notes/G.mp3" id="G"></audio>
+    <audio src="notes/Ab.mp3" id="Ab"></audio>
+    <audio src="notes/A.mp3" id="A"></audio>
+    <audio src="notes/Bb.mp3" id="Bb"></audio>
+    <audio src="notes/B.mp3" id="B"></audio>
+    
+</body>
+</html>
